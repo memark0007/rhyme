@@ -8,7 +8,8 @@ function App() {
   const testData = [
     { id:1, word: "word1" },
     { id:2, word: "word2" },
-    { id:3, word: "word3" }
+    { id:3, word: "word3" },
+    { id:4, word: "word4" }
   ]
 
   const [items, setItems] = useState(testData);
