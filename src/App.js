@@ -16,7 +16,6 @@ function App() {
 
   const onAddNewWord = (newWord)=>{
     console.log('คำที่สีงจาก FilterSearch = ', newWord);
-    console.log('develop branch');
     setItems((prevItem)=>{
       return [newWord, ...items]
     });
